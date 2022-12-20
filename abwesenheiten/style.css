@@ -1,5 +1,6 @@
 body {
     font-size: .875rem;
+    min-height: 100vh;
   }
   
   .feather {
@@ -101,3 +102,45 @@ body {
     border-color: transparent;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
   }
+
+  .d-flex.p-2.bd-highlight.btn-container{
+    justify-content: center;
+    margin-top: 2vw; 
+  }
+  
+  .btn.btn-primary.btn-lg {
+    background-color: rgb(8, 159, 176);
+    border:none;
+    border-radius: 5px;
+    width:40%;
+  }
+
+.container.col-12{
+  margin-top: 3vw;
+  padding: 0vw 3vw;
+  height: min-content;
+}
+
+.col-4.project{
+  background-color: #ffffff;
+  height: 15vw;
+}
+
+  .project{
+    text-align: center ;
+
+  }
+  .card {
+    margin: 0 5vw;
+    height: 85%;
+    border-radius: 0.5vw;
+
+    box-shadow: 0 0 1vw 0.1vw rgba(213, 213, 213, 0.1);
+
+  }
+
+
+  
+
+
+
